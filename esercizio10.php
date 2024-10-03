@@ -6,6 +6,17 @@
     <title>Document</title>
 </head>
 <body>
+
+
+    <?php
+        $size=10; //dimensione paragrafo
+        $num=10; //numero paragrafi
+        $paragrafo = "ecco un nuovo paragrafo";
+        for( $i = 0; $i < $num ; $i++){
+            echo "<p style='font-size:{$size}px'> $paragrafo </p>";
+            $size+=2;
+        }
+    ?>
     
 </body>
 </html>
